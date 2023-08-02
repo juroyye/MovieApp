@@ -19,7 +19,7 @@ export default function App() {
     );
 
     const data = await response.json();
-    //set the Movie state to the movie
+
     setMovie(data);
   };
 
